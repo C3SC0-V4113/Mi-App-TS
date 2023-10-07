@@ -1,4 +1,4 @@
-import { Counter, Usuario } from "./components";
+import { Counter, TimerPadre, Usuario } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <hr />
       <Counter />
       <Usuario />
+      <h2>useEffect + useRef</h2>
+      <TimerPadre />
     </>
   );
 }
